@@ -12,7 +12,7 @@ public class RegistrationRepository {
   public HibernateTemplate hibernateTemplate;
   
   public void registerUser(User user) {
-    System.out.println("I AM INSIDE OF REPOSITORY CLASS. TYPING IT FROM STS");
+    System.out.println("I AM INSIDE OF REPOSITORY CLASS. TYPING IT FROM WEBSITE ");
     hibernateTemplate.save(user);
   }
 }
